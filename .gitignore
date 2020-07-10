@@ -21,3 +21,9 @@ node_modules/
 *.log
 *.sql
 *.sqlite
+*.tfstate
+*.tfstate.*
+*.pem
+*.retry
+inventory
+interviewanuroop.yml
