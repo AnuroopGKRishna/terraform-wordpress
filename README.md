@@ -16,7 +16,7 @@
  terraform version
  
  Terraform v0.12.28
-# TO use terraform, :
+# To use terraform, :
    infra-terraform/ :
     Specify the AWS access keys  in variables.tf file located at infra-terraform/variables.tf
 
