@@ -1,0 +1,19 @@
+---
+# These variables will be overwrite
+WEBSITE_NAME: "interview"
+DB_HOSTNAME: "interviewanuroop-rds.c4keunincoq2.us-east-1.rds.amazonaws.com"
+DB_NAME: "interviewanuroop-rds"
+DB_USERNAME: "admin"
+DB_PASSWORD: "admin123"
+
+
+website_name: "{{ WEBSITE_NAME }}"
+wordpress_dir: /var/www
+wordpress_url: http://wordpress.org/wordpress-4.9.15.tar.gz
+connections: 1024 #Nginx Connection
+
+# Database settings
+db_hostname: "{{ DB_HOSTNAME }}"
+db_name: "{{ DB_NAME }}"
+db_username: "{{ DB_USERNAME }}"
+db_password: "{{ DB_PASSWORD }}"
