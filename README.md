@@ -63,7 +63,7 @@ ansible-playbook site.yml -e@../secret/secure.yml -e@../infra-terraform/intervie
 Where  interviewanruoop.yml is dynamicaly created while creating resources using terraform
 
 # Note 
-Uses dynamic inventory and uses key authentication to login to resources,so place the key (private key-pem) under the folder
+Uses dynamic inventory  key authentication to login to resources,so place the key (private key-pem) under the folder
 
 deploy-ansible/
 
