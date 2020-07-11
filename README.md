@@ -33,7 +33,9 @@
             default = ""
             }
 # To setup terraform run
+
 terraform get
+
 terrafrom init
 
 # To Generate and show an execution plan (dry run):
