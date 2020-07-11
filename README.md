@@ -63,11 +63,11 @@ ansible-playbook site.yml -e@../secret/secure.yml -e@../infra-terraform/intervie
 Where  interviewanruoop.yml is dynamicaly created while creating resources using terraform
 
 # Note 
-Here inventory also being created dynamicaly and uses key authentication to login to resources,so place the key (private key-pem) under the folder
+Uses dynamic inventory and uses key authentication to login to resources,so place the key (private key-pem) under the folder
 
 deploy-ansible/
 
-Also here I have specife us-east region and uses linix image where ubuntu is the default user to login
+ I have specified us-east region and uses linix image where ubuntu is the default user to login
 
 Once the Ansible deployment is completed you can check the wordpress site under the url :
 
